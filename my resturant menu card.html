@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Restaurant Menu Card</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, serif;
+            background-color: #f0fff4;
+            /* soft mint background */
+            color: #2f4f4f;
+        }
+
+        .menu-card {
+            width: 600px;
+            border: 3px solid #006400;
+            border-radius: 15px;
+            background-color: #ffffff;
+            box-shadow: 0 0 20px #006400;
+        }
+
+        .restaurant-name {
+            font-size: 48px;
+            /* bigger font */
+            font-weight: bold;
+            color: #228b22;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-shadow: 2px 2px 4px #90ee90;
+        }
+
+        .tagline {
+            font-size: 20px;
+            font-style: italic;
+            text-align: center;
+            color: #006400;
+            text-decoration: underline;
+        }
+
+        .menu-section {
+            border: 2px solid #90ee90;
+            box-shadow: 0 0 8px #90ee90;
+            margin: 15px;
+            padding: 10px;
+        }
+
+        .section-title {
+            font-size: 28px;
+            color: #2e8b57;
+            text-transform: capitalize;
+            text-decoration: overline;
+        }
+
+        .dish-name {
+            font-size: 22px;
+            font-weight: bold;
+            color: #8b0000;
+            text-transform: capitalize;
+        }
+
+        .dish-name:hover {
+            transform: scale(1.1);
+        }
+
+        .dish-description {
+            font-size: 16px;
+            line-height: 1.6;
+            text-indent: 30px;
+            color: #444444;
+        }
+
+        .special-offer {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ffffff;
+            background-color: #ff4500;
+            text-align: center;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 3px #000000;
+            box-shadow: 0 0 12px #ff4500;
+            transform: rotate(-2deg);
+            margin-top: 15px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="menu-card">
+
+        <h1 class="restaurant-name">Green Leaf Bistro</h1>
+
+        <p class="tagline">Healthy bites, happy vibes!</p>
+
+        <div class="menu-section">
+            <h2 class="section-title">starters</h2>
+
+            <p class="dish-name">crispy spring rolls</p>
+            <p class="dish-description">
+                Golden fried rolls stuffed with fresh veggies and served with sweet chili sauce.
+            </p>
+
+            <p class="dish-name">paneer tikka skewers</p>
+            <p class="dish-description">
+                Juicy paneer cubes marinated in spices, grilled to perfection.
+            </p>
+        </div>
+
+        <div class="menu-section">
+            <h2 class="section-title">main course</h2>
+
+            <p class="dish-name">butter naan with dal makhani</p>
+            <p class="dish-description">
+                Soft buttery naan paired with rich, creamy dal makhani.
+            </p>
+
+            <p class="dish-name">veg biryani</p>
+            <p class="dish-description">
+                Aromatic rice cooked with fresh vegetables, saffron, and spices.
+            </p>
+        </div>
+
+        <p class="special-offer">This Week’s Special: Buy 1 Get 1 Free!</p>
+
+    </div>
+
+</body>
+
+</html>
