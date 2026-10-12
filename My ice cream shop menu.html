@@ -1,0 +1,108 @@
+
+<html>
+
+<head>
+    <title>Sweet Bliss Ice Cream Menu</title>
+    <style>
+        body {
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            background-color: #e6f7ff;
+            /* soft blue background */
+            text-align: center;
+            color: #003366;
+        }
+
+        h1 {
+            color: #ff6600;
+            font-size: 42px;
+            /* larger font */
+        }
+
+        h1+p {
+            color: #0066cc;
+            font-weight: bold;
+            background-color: #cce7ff;
+            border-radius: 10px;
+            padding: 8px;
+        }
+
+        .shop-description::first-letter {
+            font-size: 40px;
+            color: #ff3300;
+            font-weight: bold;
+        }
+
+        .menu-box {
+            width: 450px;
+            background-color: white;
+            border: 3px solid #ff6600;
+            border-radius: 15px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        ul {
+            padding: 0;
+        }
+
+        ul>li {
+            list-style: none;
+            background-color: #f0f8ff;
+            color: #003366;
+            font-size: 20px;
+            font-weight: bold;
+            margin: 10px;
+            padding: 12px;
+            border-radius: 10px;
+            border: 2px solid #66ccff;
+        }
+
+        ul>li:nth-child(3) {
+            background-color: #fffacd;
+            color: #cc6600;
+            border: 3px solid #ffcc00;
+        }
+
+        ul>li:hover {
+            background-color: #ff6600;
+            color: white;
+            cursor: pointer;
+            transform: scale(1.05);
+        }
+
+        button {
+            background-color: #ff6600;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 14px 28px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #0066cc;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Sweet Bliss Ice Cream Menu</h1>
+    <p>"Life is better with a scoop!"</p>
+    <p class="shop-description">
+        Serving happiness one scoop at a time.
+    </p>
+    <div class="menu-box">
+        <h2>Today's Ice Cream Flavours</h2>
+        <ul>
+            <li>Cookies & Cream Crunch</li>
+            <li>Mint Choco Chip</li>
+            <li>Caramel Swirl - Today's Special</li>
+            <li>Red Velvet Scoop</li>
+            <li>Pistachio Paradise</li>
+        </ul>
+        <button>Grab Your Scoop!</button>
+    </div>
+</body>
+
+</html>
